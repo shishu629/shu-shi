@@ -1,85 +1,292 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Shi Shu is a postdoctoral research fellow at the National University of Singapore working on ferroelectric oxide thin films, memristors, and neuromorphic computing.">
-  <meta name="author" content="Shi Shu">
-  <meta name="theme-color" content="#f6f3ec">
-  <title>Shi Shu | Materials Scientist</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="mobile.css">
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Shi Shu","alternateName":"石澍","jobTitle":"Postdoctoral Research Fellow","affiliation":{"@type":"CollegeOrUniversity","name":"National University of Singapore"},"email":"mailto:shishu@u.nus.edu","knowsAbout":["Ferroelectrics","Oxide thin films","Memristors","Neuromorphic computing"]}
-  </script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Academic homepage of Shu Shi, Postdoctoral Research Fellow at the National University of Singapore, working on ferroelectric thin films, resistive switching, memristors, and neuromorphic computing." />
+  <meta name="author" content="Shu Shi" />
+  <title>Shu Shi | Academic Homepage</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Shi Shu home"><span>SS</span> Shi Shu</a>
-    <button class="menu-button" aria-expanded="false" aria-controls="navigation">Menu</button>
-    <nav id="navigation" aria-label="Primary navigation">
-      <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+  <header class="site-header" id="home">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="brand" href="#home">Shu Shi</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#patents">Patents</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </div>
     </nav>
+
+    <section class="hero section-wrap">
+      <div class="hero-card profile-card">
+        <img class="profile-photo" src="assets/profile.png" alt="Portrait of Shu Shi" />
+        <div>
+          <p class="eyebrow">Postdoctoral Research Fellow · National University of Singapore</p>
+          <h1>Dr. Shu Shi</h1>
+          <p class="subtitle">Department of Materials Science and Engineering, College of Design and Engineering, National University of Singapore</p>
+          <div class="tag-row" aria-label="Research keywords">
+            <span>Ferroelectrics</span>
+            <span>Oxide Thin Films</span>
+            <span>Resistive Switching</span>
+            <span>Memristors</span>
+            <span>Neuromorphic Computing</span>
+          </div>
+          <div class="profile-links">
+            <a href="mailto:shishu@u.nus.edu">Email</a>
+            <a href="https://scholar.google.com/citations?hl=en&user=bZBt2A8AAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://orcid.org/0000-0003-0945-5637" target="_blank" rel="noopener">ORCID</a>
+            <a href="#publications">Publications</a>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-aside">
+        <h2>Research Interests</h2>
+        <p>
+          My research focuses on emerging non-volatile memory materials and devices, including HfO<sub>2</sub>-based ferroelectric thin films, interface and multilayer engineering, resistive switching devices, memristors, and neuromorphic computing hardware.
+        </p>
+      </aside>
+    </section>
   </header>
 
-  <main id="main">
-    <section class="hero" id="home">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Materials scientist · Singapore</p>
-        <h1>Engineering matter<br>at the <em>atomic interface.</em></h1>
-        <p class="lede">I study ferroelectric oxide thin films and emerging memory devices—connecting interfacial physics with energy-efficient computing.</p>
-        <div class="hero-actions"><a class="button primary" href="#publications">Explore my work</a><a class="button secondary" href="Shi-Shu-CV.pdf">Download CV <span aria-hidden="true">↗</span></a></div>
-        <div class="quick-links"><a href="mailto:shishu@u.nus.edu">Email</a><a href="https://scholar.google.com/scholar?q=%22Shi+Shu%22+ferroelectric" target="_blank" rel="noreferrer">Google Scholar</a></div>
+  <main>
+    <section class="section-wrap" id="highlights">
+      <div class="section-title">
+        <p class="eyebrow">Selected Highlights</p>
+        <h2>Emerging memories from materials to devices</h2>
       </div>
-      <div class="hero-visual reveal" aria-label="Abstract illustration of a multilayer ferroelectric device">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="monogram"><span>SS</span><small>石澍</small></div>
-        <div class="layer-stack" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-        <span class="annotation a1">POLARIZATION</span><span class="annotation a2">INTERFACE</span><span class="annotation a3">MEMORY</span>
+      <div class="highlight-grid">
+        <article class="highlight-card">
+          <span class="year">2026</span>
+          <h3>Approaching theoretical polarization limit in HfZrO<sub>2</sub>/HfLaO<sub>2</sub> multilayers</h3>
+          <p>First-author work in <em>Nature Communications</em> on multilayer engineering for high-polarization hafnia-based ferroelectrics.</p>
+          <a href="https://doi.org/10.1038/s41467-026-69634-3" target="_blank" rel="noopener">DOI</a>
+        </article>
+        <article class="highlight-card">
+          <span class="year">2023</span>
+          <h3>Interface-engineered ferroelectricity of epitaxial Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> thin films</h3>
+          <p>First-author work in <em>Nature Communications</em> demonstrating interface engineering to stabilize ferroelectric HZO thin films.</p>
+          <a href="https://doi.org/10.1038/s41467-023-37560-3" target="_blank" rel="noopener">DOI</a>
+        </article>
+        <article class="highlight-card">
+          <span class="year">2024</span>
+          <h3>Stabilizing the ferroelectric phase of Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> thin films by charge transfer</h3>
+          <p>First-author work in <em>Physical Review Letters</em> revealing charge-transfer-mediated ferroelectric phase stabilization.</p>
+          <a href="https://doi.org/10.1103/PhysRevLett.133.036202" target="_blank" rel="noopener">DOI</a>
+        </article>
+        <article class="highlight-card">
+          <span class="year">2024</span>
+          <h3>Approaching ideal linearity in epitaxial crystalline-type memristors</h3>
+          <p>Co-first-author work in <em>Advanced Materials</em> on controllable filament growth for highly linear memory synapses.</p>
+          <a href="https://doi.org/10.1002/adma.202401021" target="_blank" rel="noopener">DOI</a>
+        </article>
       </div>
     </section>
 
-    <section class="section intro" id="about">
-      <div><p class="section-label">01 / About</p><h2>From fundamental physics<br>to functional devices.</h2></div>
-      <div class="body-copy"><p>I am a Postdoctoral Research Fellow at the <strong>National University of Singapore</strong>. I received my PhD in Materials Science &amp; Engineering from NUS in 2024, with a perfect 5.00/5.00 GPA.</p><p>My research centers on ferroelectric hafnia, epitaxial oxide thin films, resistive switching, memristors, and neuromorphic computing. I am especially interested in how interfaces and charge transfer can stabilize new material states and unlock high-performance memory.</p><div class="facts"><div><strong>21</strong><span>Publications</span></div><div><strong>3</strong><span>Patents</span></div><div><strong>5.00</strong><span>PhD GPA</span></div></div></div>
-    </section>
-
-    <section class="section research" id="research">
-      <p class="section-label">02 / Research</p><h2>Selected research directions</h2>
+    <section class="section-wrap" id="research">
+      <div class="section-title">
+        <p class="eyebrow">Research</p>
+        <h2>Research Themes</h2>
+      </div>
       <div class="research-grid">
-        <article><span class="research-number">01</span><h3>Ferroelectric Hafnia</h3><p>Interfacial and charge-transfer engineering of epitaxial HfO<sub>2</sub>-based thin films, including HfZrO<sub>2</sub>/HfLaO<sub>2</sub> multilayers.</p><div class="mini-diagram bars"><i></i><i></i><i></i><i></i></div></article>
-        <article><span class="research-number">02</span><h3>Emerging Memory</h3><p>Resistive switching and crystalline memristors with controlled filament growth for highly linear, precise memory synapses.</p><div class="mini-diagram nodes"><i></i><i></i><i></i><i></i><i></i></div></article>
-        <article><span class="research-number">03</span><h3>Neuromorphic Devices</h3><p>Materials and device architectures for energy-efficient synapses, spiking neural networks, and brain-inspired computing.</p><div class="mini-diagram wave"></div></article>
+        <article class="research-card">
+          <div class="icon">01</div>
+          <h3>HfO<sub>2</sub>-based ferroelectric thin films</h3>
+          <p>Interface, strain, charge-transfer, and multilayer engineering to stabilize polar phases and enhance polarization in epitaxial hafnia-based thin films.</p>
+        </article>
+        <article class="research-card">
+          <div class="icon">02</div>
+          <h3>Resistive switching and memristors</h3>
+          <p>Device physics and materials design for resistive switching memories, including conductive-filament control, crystalline-type memristors, and nitride-based memory concepts.</p>
+        </article>
+        <article class="research-card">
+          <div class="icon">03</div>
+          <h3>Neuromorphic computing hardware</h3>
+          <p>Non-volatile synaptic devices and high-linearity conductance modulation for energy-efficient hardware implementation of neuromorphic computing.</p>
+        </article>
+        <article class="research-card">
+          <div class="icon">04</div>
+          <h3>Spin-orbitronic materials and devices</h3>
+          <p>Collaborative research on spin-orbit torque, symmetry breaking, and efficient spin-current generation in oxide and spintronic systems.</p>
+        </article>
       </div>
     </section>
 
-    <section class="section publications" id="publications">
-      <div class="section-heading"><div><p class="section-label">03 / Publications</p><h2>Selected work</h2></div><p>† Equal contribution · <u>Shi Shu</u> denotes my authorship</p></div>
-      <div class="pub-list">
-        <article class="pub featured"><div class="pub-year">2026</div><div><span class="tag">Nature Communications</span><h3>Approaching theoretical polarization limit in HfZrO<sub>2</sub>/HfLaO<sub>2</sub> multilayers</h3><p><u>S. Shi</u>, H. Xi, H. Su, et al.</p></div><a href="https://scholar.google.com/scholar?q=Approaching+theoretical+polarization+limit+in+HfZrO2%2FHfLaO2+multilayers" target="_blank" rel="noreferrer" aria-label="View publication">↗</a></article>
-        <article class="pub"><div class="pub-year">2024</div><div><span class="tag">Nature Communications</span><h3>Interface-engineered ferroelectricity of epitaxial Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> thin films</h3><p><u>S. Shi</u>, H. Xi, T. Cao, et al.</p></div><a href="https://doi.org/10.1038/s41467-023-37380-1" target="_blank" rel="noreferrer" aria-label="View publication">↗</a></article>
-        <article class="pub"><div class="pub-year">2024</div><div><span class="tag">Physical Review Letters</span><h3>Stabilizing the ferroelectric phase of Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> thin films by charge transfer</h3><p><u>S. Shi</u>, T. Cao, H. Xi, et al.</p></div><a href="https://doi.org/10.1103/PhysRevLett.133.036202" target="_blank" rel="noreferrer" aria-label="View publication">↗</a></article>
-        <article class="pub"><div class="pub-year">2024</div><div><span class="tag">Advanced Materials</span><h3>Linearity enhancement in crystalline-type memristor by controllable filament growth</h3><p>T. Zeng†, <u>S. Shi†</u>, L. Jia†, et al.</p></div><a href="https://scholar.google.com/scholar?q=Linearity+enhancement+in+crystalline-type+memristor+by+controllable+filament+growth" target="_blank" rel="noreferrer" aria-label="View publication">↗</a></article>
-        <article class="pub"><div class="pub-year">2023</div><div><span class="tag">ACS Applied Materials &amp; Interfaces</span><h3>Highly energy-efficient spin current generation in SrIrO<sub>3</sub> by manipulating the octahedral rotation</h3><p>Q. Zhang†, <u>S. Shi†</u>, Z. Zheng†, et al.</p></div><a href="https://scholar.google.com/scholar?q=Highly+energy-efficient+spin+current+generation+in+SrIrO3" target="_blank" rel="noreferrer" aria-label="View publication">↗</a></article>
+    <section class="section-wrap" id="publications">
+      <div class="section-title publication-title">
+        <div>
+          <p class="eyebrow">Publications</p>
+          <h2>Full Publications List</h2>
+        </div>
+        <p class="small-note">* Equal contribution. Please verify final volume, issue, and DOI information before public release.</p>
       </div>
-      <details class="all-publications"><summary>View 16 additional publications</summary><ol>
-        <li>Symmetry-dependent field-free switching of perpendicular magnetization. <em>Nature Nanotechnology</em> 16, 277–282 (2021).</li><li>Current-induced self-switching of perpendicular magnetization in CoPt single layer. <em>Nature Communications</em> 13 (2022).</li><li>Multifunctional MoTe<sub>2</sub> Fe-FET enabled by ferroelectric polarization-assisted charge trapping. <em>Advanced Functional Materials</em> 32 (2022).</li><li>Flexible artificial synapse based on single-crystalline BiFeO<sub>3</sub> thin film. <em>Nano Research</em> 15 (2022).</li><li>Spin–orbit torque induced domain nucleation for neuromorphic computing. <em>Advanced Materials</em> 33 (2021).</li><li>An overview of ferroelectric hafnia and epitaxial growth. <em>physica status solidi (RRL)</em> 15 (2021).</li><li>Photo-enhanced Seebeck effect of a highly conductive thermoelectric material. <em>Journal of Materials Chemistry A</em> 9 (2021).</li><li>A low-power Si:HfO<sub>2</sub> ferroelectric tunnel memristor for spiking neural networks. <em>Nano Energy</em> 107 (2023).</li><li>Coexistence of magnon-induced and Rashba-induced unidirectional magnetoresistance in antiferromagnets. <em>Nano Letters</em> 23 (2023).</li><li>Effective electrical manipulation of a topological antiferromagnet by orbital torques. <em>Nature Communications</em> 15 (2024).</li><li>Interfacial electronic and magnetic reconstructions in manganite/titanate superlattices. <em>Advanced Materials Interfaces</em> (2024).</li><li>Ferroelectric control of spin-orbitronics. <em>Advanced Functional Materials</em> (2024).</li><li>Spin-orbit torque switching of magnetization in ultra-thick ferromagnetic layers. <em>Advanced Functional Materials</em> (2024).</li><li>Unidirectional magnetoresistance in the van der Waals antiferromagnet CrPS<sub>4</sub>. <em>Physical Review B</em> 110 (2024).</li><li>Ultra-thin cubic Ti<sub>3</sub>Al buffer/template layer achieving giant polarization of epitaxial PZT film. <em>Advanced Functional Materials</em> (2024).</li><li>Spin logic enabled by current vector adder. <em>Nature Communications</em> (2025).</li>
-      </ol></details>
+
+      <div class="publication-year">
+        <h3>2026</h3>
+        <ol class="pub-list">
+          <li><strong>Shi, S.</strong>, Xi, H., Su, H., Sawyer, F., Liu, Z., Niu, J., Zhang, Z., Yang, P., Zhu, Y., Yan, X., Tsymbal, E. Y., Tian, H., & Chen, J. Approaching theoretical polarization limit in HfZrO<sub>2</sub>/HfLaO<sub>2</sub> multilayers. <em>Nature Communications</em>. <a href="https://doi.org/10.1038/s41467-026-69634-3" target="_blank" rel="noopener">DOI</a></li>
+        </ol>
+      </div>
+
+      <div class="publication-year">
+        <h3>2025</h3>
+        <ol class="pub-list" start="2">
+          <li>Zhao, T., Zheng, Z., Wang, J., Zhou, G., Liu, L., Zhou, C., Xie, Q., Jia, L., Xiao, R., Zhang, Q., Ren, L., <strong>Shi, S.</strong>, Zeng, T., Gu, Y., Xu, X., Zhang, Y., & Chen, J. Spin logic enabled by current vector adder. <em>Nature Communications</em>, 2988.</li>
+        </ol>
+      </div>
+
+      <div class="publication-year">
+        <h3>2024</h3>
+        <ol class="pub-list" start="3">
+          <li><strong>Shi, S.</strong>, Xi, H., Cao, T., Lin, W., Liu, Z., Niu, J., Lan, D., Zhou, C., Cao, J., Su, H., Zhao, T., Yang, P., Zhu, Y., Yan, X., Tsymbal, E. Y., Tian, H., & Chen, J. Interface-engineered ferroelectricity of epitaxial Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> thin films. <em>Nature Communications</em>, 14, 1780. <a href="https://doi.org/10.1038/s41467-023-37560-3" target="_blank" rel="noopener">DOI</a></li>
+          <li><strong>Shi, S.</strong>, Cao, T., Xi, H., Niu, J., Jing, X., Su, H., Yu, X., Yang, P., Wu, Y., Yan, X., Tian, H., Tsymbal, E. Y., & Chen, J. Stabilizing the ferroelectric phase of Hf<sub>0.5</sub>Zr<sub>0.5</sub>O<sub>2</sub> thin films by charge transfer. <em>Physical Review Letters</em>, 133, 036202. <a href="https://doi.org/10.1103/PhysRevLett.133.036202" target="_blank" rel="noopener">DOI</a></li>
+          <li>Zeng, T.*, <strong>Shi, S.*</strong>, Jia, L.*, Li, B., Sun, K., Wu, Y., Su, H., Gu, Y., Li, H., Yan, X., Song, D., & Chen, J. Approaching the ideal linearity in epitaxial crystalline-type memristor by controlling filament growth. <em>Advanced Materials</em>, 2401021. <a href="https://doi.org/10.1002/adma.202401021" target="_blank" rel="noopener">DOI</a></li>
+          <li>Zhang, Q.*, <strong>Shi, S.*</strong>, Zheng, Z.*, Zhou, H., Shao, D., Zhao, T., Su, H., Liu, L., Shu, X., Jia, L., Gu, Y., Xiao, R., Wang, G., Zhao, C., Li, H., & Chen, J. Highly energy-efficient spin current generation in SrIrO<sub>3</sub> by manipulating the octahedral rotation. <em>ACS Applied Materials &amp; Interfaces</em>, 16, 1129-1136.</li>
+          <li>Zheng, Z., Zeng, T., Zhao, T., <strong>Shi, S.</strong>, Ren, L., Zhang, T., Jia, L., Gu, Y., Xiao, R., Zhou, H., Zhang, Q., Lu, J., Wang, G., Zhao, C., Li, H., Tay, B., & Chen, J. Effective electrical manipulation of a topological antiferromagnet by orbital torques. <em>Nature Communications</em>, 15, 745.</li>
+          <li>Gu, Y., Zheng, Z., Jia, L., <strong>Shi, S.</strong>, Zhao, T., Zeng, T., Zhang, Q., Zhu, Y., Wang, H., & Chen, J. Ferroelectric control of spin-orbitronics. <em>Advanced Functional Materials</em>, 2406444.</li>
+          <li>Chen, H., Zhou, G., Ji, H., Qin, Q., <strong>Shi, S.</strong>, Shen, Q., Yao, P., Cao, Y., Chen, J., Liu, Y., Wang, H., Lin, W., Yang, Y., Jia, J., Xu, X., Chen, J., & Liu, L. Spin-orbit torque switching of magnetization in ultra-thick ferromagnetic layers. <em>Advanced Functional Materials</em>, 2403107.</li>
+          <li>Jia, L., Zheng, Z., Zhang, X., Zhang, Q., Sim, S., Zhao, T., Gu, Y., Zeng, T., Xiao, R., <strong>Shi, S.</strong>, Wu, J., Shen, L., Novoselov, K., & Chen, J. Unidirectional magnetoresistance in the van der Waals antiferromagnet CrPS<sub>4</sub>. <em>Physical Review B</em>, 110, 214411.</li>
+          <li>Guo, J., Wang, F., Duo, Z., Sun, Y., Song, J., Hou, Y., Dai, X., Zhao, W., Yan, S., Hu, X., Lou, J., Wang, Y., <strong>Shi, S.</strong>, Chen, J., Liu, B., & Yan, X. Ultra-thin cubic Ti<sub>3</sub>Al buffer/template layer achieving giant polarization of epitaxial Pb(Zr<sub>0.40</sub>Ti<sub>0.60</sub>)O<sub>3</sub> film. <em>Advanced Functional Materials</em>, 2415919.</li>
+          <li>Lan, D., Yao, B., Swamynadhan, M., Li, N., Cao, J., <strong>Shi, S.</strong>, Yu, X., Yang, P., Wu, X., Liu, C., Chen, P., Chen, J., Ghosh, S., & He, Q. Interfacial electronic and magnetic reconstructions in manganite/titanate superlattices. <em>Advanced Materials Interfaces</em>, 2300903.</li>
+        </ol>
+      </div>
+
+      <div class="publication-year">
+        <h3>2023</h3>
+        <ol class="pub-list" start="13">
+          <li>Yan, X., Jia, X., Zhang, Y., <strong>Shi, S.</strong>, Wang, L., Shao, Y., Sun, Y., Sun, S., Zhao, Z., Zhao, J., Sun, J., Guo, Z., Guan, Z., Zhang, Z., Han, X., & Chen, J. A low-power Si:HfO<sub>2</sub> ferroelectric tunnel memristor for spiking neural networks. <em>Nano Energy</em>, 107, 108091.</li>
+          <li>Zheng, Z., Gu, Y., Zhang, Z., Zhang, X., Zhao, T., Li, H., Ren, L., Jia, L., Xiao, R., Zhou, H., Zhang, Q., <strong>Shi, S.</strong>, Zhang, Y., Zhao, C., Shen, L., Zhao, W., & Chen, J. Coexistence of magnon-induced and Rashba-induced unidirectional magnetoresistance in antiferromagnets. <em>Nano Letters</em>, 23, 6378-6385.</li>
+        </ol>
+      </div>
+
+      <div class="publication-year">
+        <h3>2022</h3>
+        <ol class="pub-list" start="15">
+          <li>Liu, L., Zhou, C., Zhao, T., Yao, B., Zhou, J., Shu, X., Chen, S., <strong>Shi, S.</strong>, Xi, S., Lan, D., Lin, W., Xie, Q., Ren, L., Luo, Z., Sun, C., Yang, P., Guo, E., Dong, Z., Manchon, A., & Chen, J. Current-induced self-switching of perpendicular magnetization in CoPt single layer. <em>Nature Communications</em>, 13, 35-39.</li>
+          <li>Gao, J., Lian, X., Chen, Z., <strong>Shi, S.</strong>, Li, E., Wang, Y., Jin, T., Chen, H., Liu, L., Chen, J., Zhu, Y., & Chen, W. Multifunctional MoTe<sub>2</sub> Fe-FET enabled by ferroelectric polarization-assisted charge trapping. <em>Advanced Functional Materials</em>, 32, 2110415.</li>
+          <li>Zhao, Z., Abdelsamie, A., Guo, R., <strong>Shi, S.</strong>, Zhao, J., Lin, W., Sun, K., Wang, J., Wang, J., Yan, X., & Chen, J. Flexible artificial synapse based on single-crystalline BiFeO<sub>3</sub> thin film. <em>Nano Research</em>, 15, 2682-2688.</li>
+          <li>Yue, S., Cheng, H., He, H., Guan, X., Le, Q., Shu, X., <strong>Shi, S.</strong>, Chen, J., & Ouyang, J. Photo-enhanced Seebeck effect of a highly conductive thermoelectric material. <em>Journal of Materials Chemistry A</em>, 9, 16725-16732.</li>
+        </ol>
+      </div>
+
+      <div class="publication-year">
+        <h3>2021</h3>
+        <ol class="pub-list" start="19">
+          <li>Liu, L., Zhou, C., Shu, X., Li, C., Zhao, T., Lin, W., Deng, J., Xie, Q., Chen, S., Zhou, J., Guo, R., Wang, H., Yu, J., <strong>Shi, S.</strong>, Yang, P., Pennycook, S., Manchon, A., & Chen, J. Symmetry-dependent field-free switching of perpendicular magnetization. <em>Nature Nanotechnology</em>, 16, 277-282.</li>
+          <li>Zhou, J., Zhao, T., Shu, X., Liu, L., Lin, W., Chen, S., <strong>Shi, S.</strong>, Yan, X., Liu, X., & Chen, J. Spin-orbit torque induced domain nucleation for neuromorphic computing. <em>Advanced Materials</em>, 33, 2103672.</li>
+          <li>Cao, J., <strong>Shi, S.</strong>, Zhu, Y., & Chen, J. An overview of ferroelectric hafnia and epitaxial growth. <em>physica status solidi (RRL) - Rapid Research Letters</em>, 15, 2100025.</li>
+        </ol>
+      </div>
     </section>
 
-    <section class="section timeline-section" id="experience"><p class="section-label">04 / Experience</p><h2>Education &amp; appointments</h2><div class="timeline">
-      <article><time>2024 — Present</time><div><h3>Postdoctoral Research Fellow</h3><p>National University of Singapore · Materials Science &amp; Engineering</p></div></article>
-      <article><time>2020 — 2024</time><div><h3>PhD, Materials Science &amp; Engineering</h3><p>National University of Singapore · GPA 5.00/5.00</p></div></article>
-      <article><time>2019</time><div><h3>Master, Materials Science &amp; Engineering</h3><p>National University of Singapore · GPA 4.50/5.00</p></div></article>
-      <article><time>2014 — 2018</time><div><h3>Bachelor, Materials Science &amp; Engineering</h3><p>Monash University &amp; Wuhan University of Technology · Dual-degree 2+2 program</p></div></article>
-    </div></section>
+    <section class="section-wrap split" id="awards">
+      <div>
+        <div class="section-title compact">
+          <p class="eyebrow">Awards</p>
+          <h2>Selected Awards</h2>
+        </div>
+        <ul class="timeline-list">
+          <li><span>2025</span> 20th Chunhui Cup China Overseas Talents Innovation &amp; Entrepreneurship Competition - Excellent Award</li>
+          <li><span>2024</span> NUS Enterprise Venture Initiation Programme (VIP) Award</li>
+          <li><span>2023</span> National Self-funded Overseas Students Scholarship, China</li>
+          <li><span>2020-2024</span> NUS Research Scholarship</li>
+        </ul>
+      </div>
+      <div>
+        <div class="section-title compact">
+          <p class="eyebrow">Academic Service</p>
+          <h2>Peer Review</h2>
+        </div>
+        <div class="chip-panel">
+          <span>Nature Communications</span>
+          <span>Advanced Materials</span>
+          <span>Journal of Alloys and Compounds</span>
+          <span>Journal of Materials Chemistry C</span>
+          <span>Advanced Materials Interfaces</span>
+          <span>Advanced Science</span>
+          <span>ACS Applied Electronic Materials</span>
+        </div>
+      </div>
+    </section>
 
-    <section class="section two-column"><div><p class="section-label">05 / Recognition</p><h2>Awards</h2><ul class="clean-list"><li><span>2025</span> Chunhui Cup Overseas Talents Competition — Excellent Award</li><li><span>2024</span> NUS Enterprise Venture Initiation Programme Award</li><li><span>2023</span> National Self-funded Overseas Students Scholarship</li><li><span>2020–24</span> NUS Research Scholarship</li></ul></div><div><p class="section-label">06 / Service</p><h2>Peer review</h2><p class="muted">Reviewer for Nature Communications, Advanced Materials, Advanced Science, Journal of Materials Chemistry C, Advanced Materials Interfaces, ACS Applied Electronic Materials, and other journals.</p></div></section>
+    <section class="section-wrap" id="patents">
+      <div class="section-title">
+        <p class="eyebrow">Patents</p>
+        <h2>Patents and Intellectual Property</h2>
+      </div>
+      <div class="patent-list">
+        <article>
+          <h3>A Memory Device and A Memory Array Thereof</h3>
+          <p>Chen, J., Zeng, T., Shi, S. SG patent 10202303610R, granted.</p>
+        </article>
+        <article>
+          <h3>High-temperature non-volatile memory cell based on doped AlN thin films, and its fabrication method and applications</h3>
+          <p>Shi, S., Guo, P. Chinese patent 202510450762X, filed.</p>
+        </article>
+        <article>
+          <h3>High-temperature phase-transition-type non-volatile memory device</h3>
+          <p>Shi, S., Guo, P. Chinese patent 202510469232X, filed.</p>
+        </article>
+      </div>
+    </section>
 
-    <section class="contact" id="contact"><p class="section-label">Let’s connect</p><h2>Interested in ferroelectrics,<br>memory, or new collaborations?</h2><a href="mailto:shishu@u.nus.edu">shishu@u.nus.edu <span>↗</span></a><p>National University of Singapore · Singapore</p></section>
+    <section class="section-wrap" id="cv">
+      <div class="section-title">
+        <p class="eyebrow">CV</p>
+        <h2>Education and Experience</h2>
+      </div>
+      <div class="cv-grid">
+        <article class="cv-card">
+          <h3>Experience</h3>
+          <ul>
+            <li><strong>2024.03-present</strong><br />Postdoctoral Research Fellow, National University of Singapore</li>
+          </ul>
+        </article>
+        <article class="cv-card">
+          <h3>Education</h3>
+          <ul>
+            <li><strong>2020.01-2024.06</strong><br />Ph.D., Materials Science &amp; Engineering, National University of Singapore</li>
+            <li><strong>2019.01-2019.12</strong><br />Master, Materials Science &amp; Engineering, National University of Singapore</li>
+            <li><strong>2017.01-2018.12</strong><br />Undergraduate, Materials Science &amp; Engineering, Monash University</li>
+            <li><strong>2014.09-2016.07</strong><br />Undergraduate, Materials Science &amp; Engineering, Wuhan University of Technology</li>
+          </ul>
+        </article>
+        <article class="cv-card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Thin-film growth: pulsed laser deposition (PLD), magnetron sputtering.</li>
+            <li>Characterization: SEM, AFM, HR-XRD, φ-scan, reciprocal space mapping, PFM, MOKE, PPMS, VSM.</li>
+            <li>Device fabrication: laser direct-write lithography, ion etching.</li>
+            <li>Device testing: ferroelectric tester for thin-film ferroelectric characterization.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Get in touch</h2>
+        <p>Department of Materials Science and Engineering, National University of Singapore, Singapore.</p>
+      </div>
+      <div class="contact-card">
+        <p><strong>Email:</strong> <a href="mailto:shishu@u.nus.edu">shishu@u.nus.edu</a></p>
+        <p><strong>Location:</strong> Singapore / China</p>
+        <p><strong>Academic profiles:</strong> <a href="https://scholar.google.com/citations?hl=en&user=bZBt2A8AAAAJ" target="_blank" rel="noopener">Google Scholar</a> · <a href="https://orcid.org/0000-0003-0945-5637" target="_blank" rel="noopener">ORCID</a></p>
+      </div>
+    </section>
   </main>
-  <footer><p>© <span id="year"></span> Shi Shu</p><p>Built for ideas at small scales.</p><a href="#home">Back to top ↑</a></footer>
+
+  <footer class="footer">
+    <p>© <span id="current-year"></span> Shu Shi. Built for GitHub Pages.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
