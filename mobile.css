@@ -1,0 +1,3 @@
+@media (max-width: 480px) {
+  .pub.featured { margin: 0; padding: 1.5rem 1rem; }
+}
