@@ -486,3 +486,13 @@ body {
     text-align: left;
   }
 }
+@media (min-width: 541px) {
+  .experience-timeline {
+    width: 100%;
+    max-width: 680px;
+    margin: 12px auto 0;
+
+    /* 整体向左移动 */
+    transform: translateX(-18px);
+  }
+}
