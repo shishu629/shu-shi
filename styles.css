@@ -435,3 +435,15 @@ body {
   font-size: 18px;
   color: #d14b32;
 }
+
+/* Education and Work Experience 居中 */
+.cv-section > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-timeline {
+  width: 100%;
+  max-width: 620px;
+  margin: 12px auto 0;
+}
