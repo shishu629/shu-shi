@@ -19,7 +19,7 @@ body {
     rgba(243, 246, 250, 0.84),
     rgba(243, 246, 250, 0.92)
   ),
-  url("assets/tech-background.webp") center center / cover fixed no-repeat;
+  url("assetstech-background.webp") center center / cover fixed no-repeat;
 
 #network-bg {
   position: fixed;
