@@ -20,4 +20,4 @@ Upload these four files to the root of the `shishu629/shu-shi` repository:
 
 Commit the changes to the branch currently used by GitHub Pages. The public page will update automatically after the Pages workflow completes.
 
-The circular `SS / 石澍` monogram is used because the repository does not currently contain a portrait image.
+The homepage uses `assets/profile.jpg` as the circular profile portrait, and all typography is set in Arial.
