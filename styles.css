@@ -16,8 +16,8 @@ body {
   font: 14px/1.65 Arial, Helvetica, sans-serif;
   background:
   linear-gradient(
-    rgba(243, 246, 250, 0.84),
-    rgba(243, 246, 250, 0.92)
+    rgba(243, 246, 250, 0.55),
+    rgba(243, 246, 250, 0.68)
   ),
   url("assets/tech-background.webp") center center / cover fixed no-repeat;
 }
@@ -28,7 +28,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 0;
-  opacity: 0.38;
+  opacity: 0.55;
   pointer-events: none;
 }
 
