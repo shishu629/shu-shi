@@ -14,10 +14,12 @@ body {
   margin: 0;
   color: var(--ink);
   font: 14px/1.65 Arial, Helvetica, sans-serif;
-  background: var(--page);
-}
-a { color: #006de2; }
-a:hover { color: #004b9b; }
+  background:
+  linear-gradient(
+    rgba(243, 246, 250, 0.84),
+    rgba(243, 246, 250, 0.92)
+  ),
+  url("assets/tech-background.webp") center center / cover fixed no-repeat;
 
 #network-bg {
   position: fixed;
