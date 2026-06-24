@@ -234,8 +234,31 @@ body {
   border: 1px solid rgba(23, 121, 230, .16);
   border-radius: 50%;
 }
-.theme-number { color: var(--bright-blue); font-size: 11px; font-weight: 700; letter-spacing: .12em; }
-.theme-card h3 { margin: 28px 0 14px; font-size: 16px; line-height: 1.35; }
+.theme-number {
+  display: grid;
+  place-items: center;
+
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 20px;
+
+  color: #ffffff;
+  background: var(--bright-blue);
+  border-radius: 6px;
+
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+
+  box-shadow: 0 5px 12px rgba(23, 121, 230, 0.22);
+}
+
+.theme-card h3 {
+  margin: 0 0 14px;
+  font-size: 16px;
+  line-height: 1.35;
+  text-align: center;
+}
 .theme-card p { margin: 0; color: #52606c; text-align: left; }
 
 .recognition-grid {
