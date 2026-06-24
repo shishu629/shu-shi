@@ -159,7 +159,8 @@ a:hover { color: #004b9b; }
 #patents li { margin: 0 0 18px; padding-left: 8px; text-align: justify; }
 .pub-list em,
 .selected-list em { font-family: Arial, Helvetica, sans-serif; }
-.pub-list a {
+.pub-list a,
+.selected-list .doi-link {
   display: inline-block;
   margin-left: 6px;
   padding: 1px 6px;
