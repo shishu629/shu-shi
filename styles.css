@@ -407,3 +407,8 @@ body {
     opacity: 0.25;
   }
 }
+/* 修改ADDRESS大小和颜色 */
+.special-text {
+  font-size: 18px;
+  color: #d14b32;
+}
