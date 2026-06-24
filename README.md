@@ -7,6 +7,7 @@ This version restyles the existing homepage to match the supplied academic-site 
 - centered white content card
 - compact blue section headings and publication lists
 - responsive mobile navigation
+- Google Scholar, ORCID, and LinkedIn profile links
 - Technical Skills section removed
 
 ## Deploy
