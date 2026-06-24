@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <canvas id="network-bg" aria-hidden="true"></canvas>
   <header class="topbar">
     <div class="container nav-wrap">
       <a class="site-title" href="#home">Shu Shi</a>
-      <nav class="nav-links" aria-label="Main navigation">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">MENU</button>
+      <nav class="nav-links" id="main-nav" aria-label="Main navigation">
         <a href="#home">HOME</a>
         <a href="#research">RESEARCH</a>
         <a href="#publications">PUBLICATIONS</a>
@@ -24,10 +26,10 @@
     </div>
   </header>
 
-  <main class="container" id="home">
+  <main class="container content-card" id="home">
     <section class="profile-section">
       <div class="portrait-box">
-        <img src="assets/profile.jpg" alt="Portrait of Shu Shi" />
+        <div class="portrait-placeholder" role="img" aria-label="Shu Shi monogram"><span>SS</span><small>石澍</small></div>
       </div>
       <div class="profile-info">
         <h1>Dr. Shu Shi</h1>
@@ -45,6 +47,12 @@
           <a href="#publications">Publications</a> |
           <a href="#contact">Contact</a>
         </p>
+      </div>
+      <div class="social-links" aria-label="Academic profiles">
+        <a class="scholar" href="https://scholar.google.com/citations?hl=en&amp;user=bZBt2A8AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">G</a>
+        <a class="orcid" href="https://orcid.org/0000-0003-0945-5637" target="_blank" rel="noopener" aria-label="ORCID">iD</a>
+        <a class="email" href="mailto:shishu@u.nus.edu" aria-label="Email">✉</a>
+        <a class="cv-icon" href="Shi-Shu-CV.pdf" aria-label="Download CV">CV</a>
       </div>
     </section>
 
@@ -207,13 +215,6 @@
         </tbody>
       </table>
 
-      <h3>Technical Skills</h3>
-      <ul>
-        <li>Thin-film growth: pulsed laser deposition (PLD) and magnetron sputtering.</li>
-        <li>Characterization: SEM, AFM, HR-XRD, φ-scan, reciprocal space mapping, PFM, MOKE, PPMS, and VSM.</li>
-        <li>Device fabrication: laser direct-write lithography and ion etching.</li>
-        <li>Device testing: ferroelectric tester for thin-film ferroelectric characterization.</li>
-      </ul>
     </section>
 
     <section class="section" id="contact">
@@ -233,8 +234,6 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
