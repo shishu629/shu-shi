@@ -442,8 +442,47 @@ body {
   margin-bottom: 20px;
 }
 
-.experience-timeline {
-  width: 100%;
-  max-width: 620px;
-  margin: 12px auto 0;
+/* Education and Work Experience 标题居中 */
+.cv-section > h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 仅在电脑和平板端将时间轴真正居中 */
+@media (min-width: 541px) {
+  .experience-timeline {
+    width: 100%;
+    max-width: 680px;
+    margin: 12px auto 0;
+  }
+
+  /* 中间竖线 */
+  .experience-timeline::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* 左边日期，右边经历 */
+  .experience-timeline article {
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+  }
+
+  /* 时间轴圆点 */
+  .experience-timeline article::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .experience-timeline time {
+    text-align: right;
+  }
+
+  .experience-timeline article > div {
+    text-align: left;
+  }
+
+  .experience-timeline article p {
+    text-align: left;
+  }
 }
