@@ -436,12 +436,6 @@ body {
   color: #d14b32;
 }
 
-/* Education and Work Experience 居中 */
-.cv-section > h3 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
 /* Education and Work Experience 标题居中 */
 .cv-section > h3 {
   text-align: center;
@@ -484,15 +478,5 @@ body {
 
   .experience-timeline article p {
     text-align: left;
-  }
-}
-@media (min-width: 541px) {
-  .experience-timeline {
-    width: 100%;
-    max-width: 680px;
-    margin: 12px auto 0;
-
-    /* 整体向左移动 */
-    transform: translateX(-18px);
   }
 }
