@@ -446,7 +446,7 @@ body {
 @media (min-width: 541px) {
   .experience-timeline {
     position: relative;
-    left: -30px;
+    left: -60px;
 
     width: 100%;
     max-width: 680px;
